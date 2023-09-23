@@ -13,9 +13,20 @@ Text Domain: ac_assessment
 //Shortcode
 include ABSPATH . 'wp-content/plugins/assessment3/shortcode/login.php';
 include ABSPATH . 'wp-content/plugins/assessment3/shortcode/newlist.php';
+include ABSPATH . 'wp-content/plugins/assessment3/shortcode/newitem.php';
+include ABSPATH . 'wp-content/plugins/assessment3/shortcode/displaylist.php';
+include ABSPATH . 'wp-content/plugins/assessment3/shortcode/displayitem.php';
 
 // API
-include ABSPATH . 'wp-content/plugins/assessment3/API/newlist.php';
+include ABSPATH . 'wp-content/plugins/assessment3/API/endpoint.php';
+
+include ABSPATH . 'wp-content/plugins/assessment3/API/getlist.php';
+include ABSPATH . 'wp-content/plugins/assessment3/API/createlist.php';
+include ABSPATH . 'wp-content/plugins/assessment3/API/deletelist.php';
+
+include ABSPATH . 'wp-content/plugins/assessment3/API/getitem.php';
+include ABSPATH . 'wp-content/plugins/assessment3/API/createitem.php';
+include ABSPATH . 'wp-content/plugins/assessment3/API/deleteitem.php';
 
 
 ?>
